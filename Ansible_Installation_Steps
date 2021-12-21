@@ -1,0 +1,18 @@
+Pre-requisites  - in all 3 machines
+
+1.	Install epel-release repository in all machines
+
+# yum install epel-release -y
+
+systemctl disable firewalld;systemctl stop firewalld
+*******************************************************************************************************************
+2.	Install vim package in all 3 machines
+
+# yum install vim -y
+*******************************************************************************************************************
+
+3. Install Ansible in Ansible server
+
+Login into ansible server using ansible user
+
+# sudo yum install ansible -y
